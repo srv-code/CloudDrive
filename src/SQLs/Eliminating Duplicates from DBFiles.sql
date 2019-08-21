@@ -1,0 +1,1 @@
+﻿select distinct UploadedFileName ' Name ', UploadedFileSize ' Size ', Category ' Category ', UploadDateTime ' Upload Date\Time ', FileAddressInServerDB ' File Address ' from DBFiles where UploadedFileName like '%fAm%' and Mode='General'

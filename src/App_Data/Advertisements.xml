@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/Food 1.jpg</ImageUrl>
+    <NavigateUrl>http://www.google.com/</NavigateUrl>
+    <AlternateText>food 1</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Food</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/Food 2.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.youtube.com/</NavigateUrl>
+    <AlternateText>food 2</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Food</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/Food 3.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.facebook.com/</NavigateUrl>
+    <AlternateText>food 3</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Food</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/Food 4.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.google.com/</NavigateUrl>
+    <AlternateText>food 4</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Food</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/Food 5.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.google.com/</NavigateUrl>
+    <AlternateText>food 5</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Food</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/Food 6.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.google.com/</NavigateUrl>
+    <AlternateText>food 6</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Food</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/Food 7.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.google.com/</NavigateUrl>
+    <AlternateText>food 7</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Food</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/ITLeaders 1.png</ImageUrl>
+
+
+    <NavigateUrl>http://www.facebook.com/</NavigateUrl>
+    <AlternateText>ITLeaders</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>ITLeaders</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/ITLeaders 2.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.facebook.com/</NavigateUrl>
+    <AlternateText>ITLeaders</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>ITLeaders</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/ITLeaders 3.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.facebook.com/</NavigateUrl>
+    <AlternateText>ITLeaders</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>ITLeaders</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/ITLeaders 4.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.facebook.com/</NavigateUrl>
+    <AlternateText>ITLeaders</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>ITLeaders</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/SB 1.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.facebook.com/</NavigateUrl>
+    <AlternateText>SB</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>SB</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/SB 2.jpg</ImageUrl>
+
+
+    <NavigateUrl>http://www.facebook.com/</NavigateUrl>
+    <AlternateText>SB</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>SB</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Adrotator Pictures/SB 3.png</ImageUrl>
+
+
+    <NavigateUrl>http://www.facebook.com/</NavigateUrl>
+    <AlternateText>SB</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>SB</Keyword>
+  </Ad>
+</Advertisements>

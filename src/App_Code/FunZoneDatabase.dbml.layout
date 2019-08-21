@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="FunZoneDatabase">
+  <DataContextMoniker Name="/FunZoneDatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a84532c1-3fb1-4b93-8063-c6382d05c3c0" absoluteBounds="0.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/FunZoneDatabaseDataContext/AdminInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6b916fd-7adb-42de-adce-e56bbb0b98d0" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4504d075-6d1d-46b3-bec9-8998bcba99c4" absoluteBounds="5.125, 0.5, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/FunZoneDatabaseDataContext/UserInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f56710b-aedc-434c-91fe-56cecfade2fc" absoluteBounds="5.14, 0.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="994121c4-018a-4d80-b906-4d3699d3b304" absoluteBounds="2.75, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/FunZoneDatabaseDataContext/FileSharingRequest" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fda895e0-80f3-4621-bc70-9cf37560cada" absoluteBounds="2.765, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2bd25696-78f3-4aa6-bf28-bb1e6b756a35" absoluteBounds="0.5, 2.125, 2, 2.5401025390625">
+      <DataClassMoniker Name="/FunZoneDatabaseDataContext/DBFile" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf78d474-5d77-451c-9665-5af3d4150712" absoluteBounds="0.51500000000000012, 2.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e795a66d-2d01-4733-80e1-16c2278fa65e" absoluteBounds="2.75, 2.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/FunZoneDatabaseDataContext/FileSharingGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2f0df232-e876-4fcb-b087-6cb1846d82e0" absoluteBounds="2.7649999999999997, 2.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

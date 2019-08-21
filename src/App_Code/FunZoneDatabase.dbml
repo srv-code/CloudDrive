@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CloudDriveDB" Class="FunZoneDatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\CloudDriveDB.mdf;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AdminInfo" Member="AdminInfos">
+    <Type Name="AdminInfo">
+      <Column Name="AdminName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AdminPwd" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="LastLogoutDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserInfos" Member="UserInfos">
+    <Type Name="UserInfo">
+      <Column Name="Username" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserPwd" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="UserFirstName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserMiddleName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserLastName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserGender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserDOB" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserCountry" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserCity" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserPhoneNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserMartialStatus" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="UserEMail" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UserSecurityQuestion" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="UserSecurityAnswer" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="UserProfilePicFile" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="JoiningDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Notifications" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FileSharingRequests" Member="FileSharingRequests">
+    <Type Name="FileSharingRequest">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RequestingUser" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RequestedUser" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FileNames_WithExt" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Confirmed" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DBFiles" Member="DBFiles">
+    <Type Name="DBFile">
+      <Column Name="FileNo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UploaderUserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Mode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UploadedFileName" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="UploadedFileName_WithExt" Type="System.String" DbType="VarChar(2000)" CanBeNull="true" />
+      <Column Name="UploadedFileSize" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UploadDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SharedWith" Type="System.String" DbType="VarChar(800)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FileSharingGroups" Member="FileSharingGroups">
+    <Type Name="FileSharingGroup">
+      <Column Name="GroupID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GroupName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GroupCreationDateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="GroupCreator" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="GroupMembers" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
